@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experience | Satheesh Bhukya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Satheesh Bhukya</h1>
+    <p>Machine Learning Engineer | IIT Dhanbad Graduate</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="experience.html" class="active">Experience</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Skills</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section class="experience-section">
+    <h2>Professional Experience</h2>
+
+    <div class="card">
+        <h3>AI/ML Intern – ADAS Team</h3>
+        <h4>Novus Hi-Tech Robotic Systemz Pvt. Ltd</h4>
+        <p class="date">July 2025 – Dec 2025</p>
+        <p class="tech-stack">
+            <strong>Tech Stack:</strong> Python, PyTorch, FastAPI, YOLOv12, InceptionResNetV1, Milvus, ONNX
+        </p>
+
+        <h4>Driver Identification System</h4>
+        <ul>
+            <li>Built a real-time embedding-based driver identification pipeline achieving <strong>93% accuracy</strong> across 1,000+ registered drivers.</li>
+            <li>Used YOLOv12 for detection and InceptionResNetV1 for generating identity embeddings.</li>
+            <li>Integrated Milvus vector database for high-dimensional similarity search, reducing identification latency from <strong>2.3s to 180ms</strong>.</li>
+            <li>Developed FastAPI services for driver registration, video validation, and real-time identification using videos uploaded to an S3 bucket.</li>
+        </ul>
+
+        <h4>Depth Estimation & Model Optimization</h4>
+        <ul>
+            <li>Benchmarked Depth Anything models on internal datasets, evaluating RAM usage, FPS, and accuracy for real-time deployment.</li>
+            <li>Estimated metric depth with ~2m error compared to ground truth and evaluated against geometry-based depth estimation for FCW integration.</li>
+            <li>Improved inference speed of Depth Anything (Small) model by <strong>10×</strong> using ONNX optimization, achieving 10 FPS on CPU.</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Satheesh Bhukya | Built with GitHub Pages</p>
+</footer>
+
+</body>
+</html>
