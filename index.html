@@ -1,11 +1,186 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Satheesh Bhukya</title>
+    <meta charset="UTF-8">
+    <title>Satheesh Bhukya | ML Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #cbd5e1;
+        }
+
+        nav {
+            background: white;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0f172a;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        section h2 {
+            border-bottom: 3px solid #0f172a;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .links a {
+            display: inline-block;
+            margin-right: 15px;
+            text-decoration: none;
+            color: white;
+            background: #0f172a;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #0f172a;
+            color: white;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 26px;
+            }
+        }
+    </style>
 </head>
+
 <body>
+
+<header>
     <h1>Satheesh Bhukya</h1>
-    <p>ML Engineer | IIT Dhanbad Graduate</p>
+    <p>Machine Learning Engineer | IIT Dhanbad Graduate</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About</h2>
+    <div class="card">
+        <p>
+            I am a Machine Learning Engineer with hands-on experience building 
+            scalable ML systems and real-time AI applications. 
+            I have worked on embedding-based recognition systems, 
+            vector databases, FastAPI services, and end-to-end ML pipelines.
+        </p>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Driver Identification System</h3>
+        <p>
+            Built a real-time embedding-based recognition pipeline achieving 93% accuracy 
+            using YOLO for detection and InceptionResNetV1 for embedding extraction. 
+            Reduced identification time using Milvus vector database.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>RAG-based Chatbot</h3>
+        <p>
+            Developed a Retrieval-Augmented Generation chatbot using 
+            vector search and LLM integration for domain-specific QA.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+        <ul>
+            <li>Python, C++, SQL</li>
+            <li>Machine Learning, Deep Learning</li>
+            <li>YOLO, InceptionResNetV1</li>
+            <li>FastAPI, REST APIs</li>
+            <li>Milvus, Vector Databases</li>
+            <li>LangChain, RAG Systems</li>
+        </ul>
+    </div>
+</section>
+
+<section id="resume">
+    <h2>Resume</h2>
+    <div class="card">
+        <p>You can download my resume below:</p>
+        <div class="links">
+            <a href="resume.pdf" target="_blank">Download Resume</a>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: your.email@example.com</p>
+        <div class="links">
+            <a href="https://github.com/satheeshbhukya" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 Satheesh Bhukya | Built with GitHub Pages
+</footer>
+
 </body>
 </html>
-
