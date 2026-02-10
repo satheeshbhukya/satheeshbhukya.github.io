@@ -25,7 +25,7 @@ header p {
 }
 
 nav {
-    background: #f9f0e1; /* light coffee */
+    background: #ffffff; /* light coffee */
     text-align: center;
     padding: 15px;
 }
@@ -50,7 +50,7 @@ section h2 {
 }
 
 .card {
-    background: #f9f0e1; /* light coffee cards */
+    background: #ffffff;
     padding: 20px;
     margin-top: 20px;
     border-radius: 8px;
@@ -74,7 +74,7 @@ ul {
 footer {
     text-align: center;
     padding: 30px;
-    background: #f9f0e1; /* light coffee */
+    background: #ffffff; /* white */
     color: #000000;       /* black text */
     margin-top: 50px;
 }
