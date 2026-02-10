@@ -2,12 +2,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
-    color: #333;
+    background-color: #f3e9dc; /* light coffee background */
+    color: #3e2f23; /* dark coffee text color */
 }
 
 header {
-    background: #0f172a;
+    background: #6f4e37; /* deep coffee brown */
     color: white;
     padding: 50px 20px;
     text-align: center;
@@ -21,11 +21,11 @@ header h1 {
 header p {
     margin-top: 10px;
     font-size: 18px;
-    color: #cbd5e1;
+    color: #fbeedc; /* light cream text */
 }
 
 nav {
-    background: white;
+    background: #d9c4b6; /* light coffee shade */
     text-align: center;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
@@ -34,8 +34,13 @@ nav {
 nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #0f172a;
+    color: #3e2f23; /* dark coffee link text */
     font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #6f4e37; /* hover effect darker coffee */
 }
 
 section {
@@ -45,13 +50,13 @@ section {
 }
 
 section h2 {
-    border-bottom: 3px solid #0f172a;
+    border-bottom: 3px solid #6f4e37; /* deep coffee underline */
     display: inline-block;
     padding-bottom: 5px;
 }
 
 .card {
-    background: white;
+    background: #fff8f0; /* very light coffee cream */
     padding: 20px;
     margin-top: 20px;
     border-radius: 8px;
@@ -67,15 +72,20 @@ ul {
     margin-right: 15px;
     text-decoration: none;
     color: white;
-    background: #0f172a;
+    background: #6f4e37; /* coffee brown buttons */
     padding: 8px 15px;
     border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.links a:hover {
+    background: #553b2d; /* darker coffee on hover */
 }
 
 footer {
     text-align: center;
     padding: 30px;
-    background: #0f172a;
+    background: #6f4e37; /* deep coffee footer */
     color: white;
     margin-top: 50px;
 }
